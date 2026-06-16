@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --blue: #0056ff;
+  --navy: #013774;
+  --coral: #fb7d5d;
+  --aqua: #a8e6cf;
+  --paper: #ffffff;
+  --wash: #f2fbf7;
+  --ink: #013774;
+  --muted: rgba(1, 55, 116, 0.66);
+  --soft: rgba(168, 230, 207, 0.45);
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--navy);
+  --color-card: var(--paper);
+  --color-card-foreground: var(--navy);
+  --color-popover: var(--paper);
+  --color-popover-foreground: var(--navy);
+  --color-primary: var(--blue);
+  --color-primary-foreground: var(--paper);
+  --color-secondary: var(--aqua);
+  --color-secondary-foreground: var(--ink);
+  --color-muted: var(--wash);
+  --color-muted-foreground: var(--muted);
+  --color-accent: var(--coral);
+  --color-accent-foreground: var(--ink);
+  --color-destructive: var(--coral);
+  --color-border: rgba(1, 55, 116, 0.16);
+  --color-input: rgba(1, 55, 116, 0.08);
+  --color-ring: var(--aqua);
+  --font-sans: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "VT323", "VT323 Fallback", ui-monospace, monospace;
+  --radius-sm: calc(var(--radius) * 0.75);
+  --radius-md: calc(var(--radius) * 0.875);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(90deg, rgba(168, 230, 207, 0.18) 1px, transparent 1px),
+    linear-gradient(rgba(168, 230, 207, 0.18) 1px, transparent 1px),
+    radial-gradient(circle at 88% 8%, rgba(0, 86, 255, 0.12), transparent 28rem),
+    radial-gradient(circle at 0% 42%, rgba(251, 125, 93, 0.12), transparent 22rem),
+    var(--paper);
+  background-size: 56px 56px, 56px 56px, auto, auto, auto;
+  color: var(--navy);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--aqua);
+  color: var(--ink);
+}
+
+.noise {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.5;
+  background-image:
+    linear-gradient(135deg, rgba(0, 86, 255, 0.08) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(251, 125, 93, 0.08) 25%, transparent 25%);
+  background-position: 0 0, 28px 28px;
+  background-size: 112px 112px;
+  mask-image: radial-gradient(circle at 50% 18%, black, transparent 68%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.font-mono {
+  font-family: var(--font-vt323), ui-monospace, monospace;
+}
