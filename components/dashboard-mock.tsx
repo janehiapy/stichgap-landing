@@ -18,7 +18,7 @@ export function DashboardMock() {
                 <p className="text-[11px] uppercase tracking-[0.22em] text-[#0056FF]">Owner daily snapshot</p>
                 <h2 className="mt-3 text-3xl font-medium tracking-[-0.055em] text-[#013774] sm:text-5xl">Yesterday, in one page.</h2>
               </div>
-              <div className="rounded-full border border-[#013774]/15 bg-[#A8E6CF] px-4 py-2 text-xs text-[#013774]">Draft brief - 07:15</div>
+              <div className="rounded-full border border-[#013774]/15 bg-[#A8E6CF] px-4 py-2 text-xs text-[#013774]">As of 14 May, 11:59pm</div>
             </div>
 
             <div className="grid gap-3 py-5 sm:grid-cols-2 lg:grid-cols-4">

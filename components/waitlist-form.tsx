@@ -62,7 +62,7 @@ export function WaitlistForm() {
 
       form.reset();
       setStatus("success");
-      setMessage("You are on the list. We will email you as StichGap ships.");
+      setMessage("You are on the list. We will email you as StitchGap ships.");
     } catch (error) {
       setStatus("error");
       setMessage(error instanceof Error ? error.message : "Something went wrong. Please try again.");
@@ -75,8 +75,8 @@ export function WaitlistForm() {
         <div className="grid gap-10 rounded-[10px] border border-[#A8E6CF]/30 bg-[#0056FF] p-5 shadow-[0_30px_120px_rgba(0,86,255,0.32)] sm:p-8 lg:grid-cols-[0.8fr_1.2fr] lg:p-10">
           <div>
             <p className="text-[11px] uppercase tracking-[0.22em] text-[#A8E6CF]">Early access</p>
-            <h2 className="mt-6 max-w-lg text-5xl font-medium leading-[0.95] tracking-[-0.065em] text-white sm:text-6xl">
-              Build with us while StichGap takes shape.
+            <h2 className="mt-6 max-w-lg text-5xl font-medium leading-[1.06] tracking-[-0.065em] text-white sm:text-6xl">
+              Build with us while StitchGap takes shape.
             </h2>
             <p className="mt-6 max-w-md text-[16px] leading-[1.3] tracking-[-0.03em] text-white/76">
               This product is currently in the making. Subscribe to follow the build, express interest, and get live updates as we shape the first F&B owner dashboard.

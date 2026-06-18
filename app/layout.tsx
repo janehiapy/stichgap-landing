@@ -18,12 +18,12 @@ const vt323 = VT323({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://stichgap.com"),
-  title: "StichGap - AI F&B Profit Control (Coming Soon)",
+  title: "StitchGap - AI F&B Profit Control (Coming Soon)",
   description:
-    "Daily prime cost visibility and AI-recommended actions for F&B owners. Join the StichGap waitlist.",
-  applicationName: "StichGap",
+    "Daily prime cost visibility and AI-recommended actions for F&B owners. Join the StitchGap waitlist.",
+  applicationName: "StitchGap",
   keywords: [
-    "StichGap",
+    "StitchGap",
     "F&B dashboard",
     "restaurant profit control",
     "prime cost",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
     "labour cost",
   ],
   openGraph: {
-    title: "StichGap - AI F&B Profit Control",
+    title: "StitchGap - AI F&B Profit Control",
     description:
       "A daily profit control room for F&B owners, currently in development.",
     url: "https://stichgap.com",
-    siteName: "StichGap",
+    siteName: "StitchGap",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "StichGap - AI F&B Profit Control",
+    title: "StitchGap - AI F&B Profit Control",
     description:
       "Daily prime cost visibility and AI-recommended actions for F&B owners.",
   },

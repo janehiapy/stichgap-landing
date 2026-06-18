@@ -1,6 +1,6 @@
-# StichGap landing page
+# StitchGap landing page
 
-A coming-soon landing page for StichGap, an AI-powered F&B profit control system for owner-operated restaurants. The site uses a bright geometric brand palette: Full Spectrum Blue, Regal Navy, Coral Glow, and Pearl Aqua.
+A coming-soon landing page for StitchGap, an AI-powered F&B profit control system for owner-operated restaurants. The site uses a bright geometric brand palette: Full Spectrum Blue, Regal Navy, Coral Glow, and Pearl Aqua.
 
 ## Local development
 
@@ -51,7 +51,7 @@ function doPost(e) {
 }
 
 function sendWaitlistNotification_(data, submittedAt) {
-  const subject = "New StichGap waitlist submission";
+  const subject = "New StitchGap waitlist submission";
   const body = [
     "A new waitlist submission was received.",
     "",

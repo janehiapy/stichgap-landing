@@ -27,7 +27,7 @@ export default function Image() {
         <div style={{ position: "absolute", left: 560, top: 140, width: 120, height: 120, borderRadius: 999, background: "#013774" }} />
         <div style={{ position: "absolute", left: 600, top: 180, width: 40, height: 40, borderRadius: 999, background: "#A8E6CF" }} />
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 24, position: "relative", color: "#013774" }}>
-          <span>StichGap</span>
+          <span>StitchGap</span>
           <span style={{ color: "#0056FF" }}>Coming soon</span>
         </div>
         <div style={{ fontSize: 92, lineHeight: 0.95, letterSpacing: -5, maxWidth: 920, position: "relative", color: "#013774" }}>

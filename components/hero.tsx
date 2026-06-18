@@ -18,12 +18,12 @@ export function Hero() {
             </span>
           ))}
         </div>
-        <h1 className="max-w-6xl text-balance text-[clamp(3rem,8vw,7.2rem)] font-medium leading-[0.92] tracking-[-0.065em] text-[#013774]">
+        <h1 className="max-w-6xl text-balance text-[clamp(3rem,8vw,7.2rem)] font-medium leading-[1.06] tracking-[-0.065em] text-[#013774]">
           Daily profit control for F&B owners.
         </h1>
         <div className="mt-8 grid gap-8 md:grid-cols-[1fr_0.75fr] md:items-end">
-          <p className="max-w-2xl text-balance text-[17px] leading-[1.25] tracking-[-0.03em] text-[#013774]/72 sm:text-xl">
-            StichGap is an AI-powered operating control room that shows where money is leaking and what to do about it, starting with daily prime cost.
+          <p className="max-w-2xl text-balance text-[17px] leading-[1.45] tracking-[-0.03em] text-[#013774]/72 sm:text-xl">
+            StitchGap is an AI-powered operating control room that shows where money is leaking and what to do about it, starting with daily prime cost.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row md:justify-end">
             <a
