@@ -19,7 +19,7 @@ export function Hero() {
           ))}
         </div>
         <h1 className="max-w-6xl text-balance text-[clamp(3rem,8vw,7.2rem)] font-medium leading-[1.06] tracking-[-0.065em] text-[#013774]">
-          Daily profit control for F&B owners.
+          Daily cost control for F&B owners
         </h1>
         <div className="mt-8 grid gap-8 md:grid-cols-[1fr_0.75fr] md:items-end">
           <p className="max-w-2xl text-balance text-[17px] leading-[1.45] tracking-[-0.03em] text-[#013774]/72 sm:text-xl">

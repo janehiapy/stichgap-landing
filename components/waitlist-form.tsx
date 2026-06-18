@@ -76,7 +76,7 @@ export function WaitlistForm() {
           <div>
             <p className="text-[11px] uppercase tracking-[0.22em] text-[#A8E6CF]">Early access</p>
             <h2 className="mt-6 max-w-lg text-5xl font-medium leading-[1.06] tracking-[-0.065em] text-white sm:text-6xl">
-              Build with us while StitchGap takes shape.
+              Build with us while StitchGap takes shape
             </h2>
             <p className="mt-6 max-w-md text-[16px] leading-[1.3] tracking-[-0.03em] text-white/76">
               This product is currently in the making. Subscribe to follow the build, express interest, and get live updates as we shape the first F&B owner dashboard.

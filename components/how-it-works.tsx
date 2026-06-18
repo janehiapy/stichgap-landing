@@ -26,7 +26,7 @@ export function HowItWorks() {
           <div>
             <p className="text-[11px] uppercase tracking-[0.22em] text-[#0056FF]">How it works</p>
             <h2 className="mt-6 max-w-lg text-5xl font-medium leading-[1.06] tracking-[-0.065em] text-[#013774] sm:text-6xl">
-              From raw data to today&apos;s decision.
+              From raw data to today&apos;s decision
             </h2>
           </div>
           <div className="grid gap-3">

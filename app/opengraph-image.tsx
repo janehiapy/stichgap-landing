@@ -31,7 +31,7 @@ export default function Image() {
           <span style={{ color: "#0056FF" }}>Coming soon</span>
         </div>
         <div style={{ fontSize: 92, lineHeight: 0.95, letterSpacing: -5, maxWidth: 920, position: "relative", color: "#013774" }}>
-          Daily profit control for F&B owners.
+          Daily cost control for F&B owners
         </div>
         <div style={{ color: "#0056FF", fontSize: 28, position: "relative" }}>
           AI-powered prime cost visibility and owner actions.
